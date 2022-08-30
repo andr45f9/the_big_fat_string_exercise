@@ -8,18 +8,10 @@ input {
   width: auto;
   padding: 5px;
   box-sizing: border-box;
+  margin-bottom: 2rem;
 }
 
 button {
   padding: 5px;
   margin-bottom: 1rem;
-}
-
-output {
-  box-sizing: border-box;
-  background-color: lightgray;
-  padding: 5px 12.8rem;
-  border: 1px solid gray;
-  border-radius: 1px;
-  text-align: start;
 }
