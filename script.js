@@ -1,3 +1,4 @@
+"use-strict";
 let inputValue, stringSelector, outputText, clickButton;
 let outputValue;
 
@@ -25,7 +26,25 @@ function readInput() {
 
       console.log(outputValue);
       break;
+
     case 1: //find the first name of a full name.
       outputValue = inputValue.substring(0, inputValue.indexOf(" "));
+      break;
+
+    case 2: //find the lenght of the first name in a full name.
+      outputValue = inputValue.substring(0, inputValue.indexOf(" ").length);
+      break;
+
+    case 3: //find start and end position of the middel name out of a full name.
+      outputValue = inputValue.substring(inputValue.indexOf(" ") + 1, inputValue.lastIndexOf(" "));
+      break;
+
+    case 4: //check if a filename is either .jpg or .png.
+      inputValue.endsWith(".jpg") || inputValue.endsWith(".png") ? (outputValue = "That's a good image file name") : (outputValue = "Incorrect file ending...");
+      break;
+
+    case 5: //hide a password with the right amount of *.
+      outputValue = "*".repeat(inputValue.length);
+      break;
   }
 }
