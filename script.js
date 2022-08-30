@@ -46,5 +46,9 @@ function readInput() {
     case 5: //hide a password with the right amount of *.
       outputValue = "*".repeat(inputValue.length);
       break;
+
+    default:
+      outputValue = "Not implimentet yet";
   }
+  outputText.value = outputValue;
 }
