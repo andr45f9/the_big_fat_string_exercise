@@ -1,0 +1,25 @@
+input {
+  width: 53%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#dropdown {
+  width: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+output {
+  box-sizing: border-box;
+  background-color: lightgray;
+  padding: 5px 23.5rem;
+  border: 1px solid gray;
+  border-radius: 1px;
+  text-align: start;
+}
